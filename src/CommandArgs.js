@@ -1,5 +1,8 @@
 import yargs from 'yargs/yargs';
-// test comment
+
+/** t445t comment
+* test comment
+*/     
 const argv = yargs(process.argv.slice(2))
     .usage('Usage: $0 -u https://example.com [options]')
     .alias('u', 'url')
